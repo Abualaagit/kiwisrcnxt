@@ -29,18 +29,18 @@ use_official_google_api_keys = false
 
 ffmpeg_branding = "Chrome"
 proprietary_codecs = true
-enable_nacl = false
+enable_nacl = true
 enable_widevine = true
 enable_mse_mpeg2ts_stream_parser = true
-enable_remoting = false
-rtc_use_h264 = false
+enable_remoting = true
+rtc_use_h264 = true
 
 v8_use_external_startup_data = true
 update_android_aar_prebuilts = true
 
 enable_extensions = true
-enable_pdf = false
-enable_plugins = false
+enable_pdf = true
+enable_plugins = true
 
 disable_android_lint = true
 treat_warnings_as_errors = false
